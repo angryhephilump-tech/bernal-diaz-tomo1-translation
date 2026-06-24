@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sidecar logs (regenerated each run)
+skipped_sections.txt
+validation_failed_sections.txt
+low_ratio_sections.txt
+map_problems.txt
+
+# Large backup from section-number migration
+translation_output_v142_backup.txt
+
+# Temp analysis files
+sec*_tail.txt
+sec*_fin.txt
+sec*_narrative_tail.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets
+.env
+*.key
