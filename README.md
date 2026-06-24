@@ -2,6 +2,8 @@
 
 Batch literary translation of *Historia verdadera de la conquista de la Nueva España* (García 1904 OCR) into paired modern **English + Spanish**, using the Wikowí Universal Translation Protocol (UTP).
 
+Repository: https://github.com/angryhephilump-tech/bernal-diaz-tomo1-translation
+
 Each chapter is translated in a **fresh** `cursor-agent` process — no context bleed between sections.
 
 ## Setup
